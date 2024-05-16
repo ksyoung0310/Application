@@ -1,3 +1,11 @@
+import android.widget.ImageButton
+import android.widget.EditText
+import android.widget.Button
+import android.os.Bundle
+import android.widget.Toast
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+
 class MainActivity : AppCompatActivity() {
     lateinit var btnLogin: ImageButton
     lateinit var editTextId: EditText
